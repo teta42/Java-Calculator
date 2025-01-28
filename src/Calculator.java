@@ -9,8 +9,8 @@ public class Calculator {
 
 class Calc {
     Scanner scanner;
-    int num1;
-    int num2;
+    double num1;
+    double num2;
     String oper;
 
     public void start() {
@@ -30,10 +30,10 @@ class Calc {
     private void get_user_data() {
         // Запрашиваем у пользователя ввод
         System.out.print("Введите первое число: ");
-        this.num1 = this.scanner.nextInt();
+        this.num1 = this.scanner.nextDouble();
 
         System.out.print("Введите второе число: ");
-        this.num2 = this.scanner.nextInt();
+        this.num2 = this.scanner.nextDouble();
         this.scanner.nextLine(); // Считываем оставшийся символ новой строки
 
         System.out.print("Введите операцию: + - / * \n");
