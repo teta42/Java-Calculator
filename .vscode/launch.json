@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Postfix_Notation",
+            "request": "launch",
+            "mainClass": "Postfix_Notation",
+            "projectName": "calculator_java_3fe7d0b9"
+        },
+        {
+            "type": "java",
             "name": "Calculator",
             "request": "launch",
             "mainClass": "Calculator",
